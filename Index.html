@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UserDashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Style the input field */
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="form-group">
+      <div class="col-xs-5"><label>
+          <h12>Users<h12>
+        </label></div>
+      <div class="col-xs-4">
+        <label for="myInput">Search</label>
+
+        <input class="form-control" id="myInput" type="text" placeholder="">
+      </div>
+      <div class="col-xs-3">
+
+        <label for="sel1">Sort By</label>
+        <select class="form-control" id="sel1">
+          <option id="Name">Name</option>
+          <option id="UserName">UserName</option>
+          <option id="Email">Email</option>
+        </select>
+
+      </div>
+      <table class="table table-striped" id="userTable">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="usersList">
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="App.js"> </script>
+
+</body>
+
+</html>
